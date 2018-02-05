@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#3cab7c7c">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:background="@android:color/transparent">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/imgTitle"
+            android:src="@mipmap/ic_launcher"
+            android:background="@android:color/transparent"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contacta con nosotros:"
+            android:id="@+id/lblTitContacto"
+            android:layout_toRightOf="@+id/imgTitle"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentTop="true"
+            android:textColor="#424242"
+            android:background="@android:color/transparent"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblTitContacto"
+            android:layout_marginTop="10dp"
+            android:autoLink="all"
+            android:id="@+id/lblTelf1"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="+591 69332730"
+            android:layout_below="@+id/lblTitContacto"
+            android:background="@android:color/transparent"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblTitContacto"
+            android:layout_marginTop="10dp"
+            android:autoLink="all"
+            android:id="@+id/lblTelf2"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="inmovil.tarija@gmail.com"
+            android:background="@android:color/transparent"
+            android:layout_below="@+id/lblTelf1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="inMóvil © 2017"
+            android:id="@+id/lblTitle"
+            android:textColor="#424242"
+            android:textStyle="bold"
+            android:layout_below="@+id/imgTitle"
+            android:layout_alignLeft="@+id/lblTitContacto"
+            android:background="@android:color/transparent"/>
+    </RelativeLayout>
+
+</RelativeLayout>

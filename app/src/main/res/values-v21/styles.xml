@@ -1,0 +1,5 @@
+<resources>
+    <style name="Alertas" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/colorPrimary</item>
+    </style>
+</resources>

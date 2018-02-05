@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnCasas"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_casa_ico"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Casas"
+        android:textColor="@android:color/white"
+        android:id="@+id/lblAutos"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnCasas"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="7dp"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="En Venta"
+        android:id="@+id/btnEnVenta"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="En Alquiler"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnEnVenta"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnEnAlquiler"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="En Anticrético"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btnEnAlquiler"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnEnAnti"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Quieres registrar tu casa?"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/distanciaMargen"
+        android:id="@+id/btnInfo"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btnInfo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp">
+    </View>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">inMóvil</string>
+    <!--
+    <string name="url">http://192.168.0.102/roscosoft/inmobil/</string>
+    -->
+    <string name="preferencias">preferencias</string>
+    <string name="url">http://www.roscosoft.com/inmobil/</string>
+</resources>
