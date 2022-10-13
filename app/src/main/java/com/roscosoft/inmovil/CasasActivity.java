@@ -300,7 +300,6 @@ public class CasasActivity extends AppCompatActivity implements HttpPost.HttpPos
             v = viewGroup;
             i++;
         }
-        Log.i("rosco", "cambio el clip "+i+" veces");
     }
     @Override
     public void termino(JSONObject obj) {

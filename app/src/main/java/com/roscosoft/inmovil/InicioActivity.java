@@ -468,6 +468,6 @@ public class InicioActivity extends AppCompatActivity implements HttpPost.HttpPo
 
     @Override
     public void cancelo(String error) {
-        Log.i("rosco", "Error al cargar los maximos:"+error);
+        Log.i("rosco", "Error al cargar los maximos: "+error);
     }
 }
